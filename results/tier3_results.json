@@ -1,0 +1,179 @@
+{
+  "config": {
+    "seeds": [
+      42,
+      123,
+      777
+    ],
+    "episodes": 200,
+    "epochs": 30
+  },
+  "baseline_3d": {
+    "42": {
+      "prescribed_3d": {
+        "best_val_loss": 7.395591051215633e-05,
+        "drift_01": 0.0,
+        "r2_transfer_01": 1.0,
+        "enc_params": 0
+      },
+      "free_3d": {
+        "best_val_loss": 0.00902500388196163,
+        "drift_01": 1.4958313703536987,
+        "r2_transfer_01": -55.73956561334474,
+        "enc_params": 4995
+      }
+    },
+    "123": {
+      "prescribed_3d": {
+        "best_val_loss": 5.22986970680537e-05,
+        "drift_01": 0.0,
+        "r2_transfer_01": 1.0,
+        "enc_params": 0
+      },
+      "free_3d": {
+        "best_val_loss": 0.008888420874350949,
+        "drift_01": 1.685784935951233,
+        "r2_transfer_01": -96.25584607675228,
+        "enc_params": 4995
+      }
+    },
+    "777": {
+      "prescribed_3d": {
+        "best_val_loss": 2.438581307120458e-05,
+        "drift_01": 0.0,
+        "r2_transfer_01": 1.0,
+        "enc_params": 0
+      },
+      "free_3d": {
+        "best_val_loss": 0.007596614646414915,
+        "drift_01": 1.3960821628570557,
+        "r2_transfer_01": -56.687980497299435,
+        "enc_params": 4995
+      }
+    }
+  },
+  "T9a_5d": {
+    "42": {
+      "prescribed_5d": {
+        "best_val_loss": 0.0003008140904089567,
+        "drift_01": 0.0,
+        "r2_transfer_01": 1.0,
+        "enc_params": 0
+      },
+      "free_5d": {
+        "best_val_loss": 0.022504949360563044,
+        "drift_01": 2.0026705265045166,
+        "r2_transfer_01": -50.43528214698352,
+        "enc_params": 5125
+      },
+      "random_fixed_5d": {
+        "best_val_loss": 0.00036005972784519067,
+        "drift_01": 0.0,
+        "r2_transfer_01": 0.9999999999999702,
+        "enc_params": 0
+      }
+    },
+    "123": {
+      "prescribed_5d": {
+        "best_val_loss": 0.0004776977025086812,
+        "drift_01": 0.0,
+        "r2_transfer_01": 1.0,
+        "enc_params": 0
+      },
+      "free_5d": {
+        "best_val_loss": 0.0204866257806619,
+        "drift_01": 1.9544581174850464,
+        "r2_transfer_01": -47.62058120635614,
+        "enc_params": 5125
+      },
+      "random_fixed_5d": {
+        "best_val_loss": 0.0003560409712678704,
+        "drift_01": 0.0,
+        "r2_transfer_01": 0.9999999999999664,
+        "enc_params": 0
+      }
+    },
+    "777": {
+      "prescribed_5d": {
+        "best_val_loss": 0.00028402590909727704,
+        "drift_01": 0.0,
+        "r2_transfer_01": 1.0,
+        "enc_params": 0
+      },
+      "free_5d": {
+        "best_val_loss": 0.027302394349846923,
+        "drift_01": 1.7803341150283813,
+        "r2_transfer_01": -95.45590009055935,
+        "enc_params": 5125
+      },
+      "random_fixed_5d": {
+        "best_val_loss": 0.000256856709357204,
+        "drift_01": 0.0,
+        "r2_transfer_01": 0.9999999999999795,
+        "enc_params": 0
+      }
+    }
+  },
+  "T9b_16d": {
+    "42": {
+      "prescribed_16d": {
+        "best_val_loss": 0.0007873001886253948,
+        "drift_01": 0.0,
+        "r2_transfer_01": 1.0,
+        "enc_params": 0
+      },
+      "free_16d": {
+        "best_val_loss": 0.039752026137552764,
+        "drift_01": 3.481325626373291,
+        "r2_transfer_01": -79.66334809214929,
+        "enc_params": 19856
+      },
+      "random_fixed_16d": {
+        "best_val_loss": 0.0008345796557126992,
+        "drift_01": 0.0,
+        "r2_transfer_01": 0.9999999999999908,
+        "enc_params": 0
+      }
+    },
+    "123": {
+      "prescribed_16d": {
+        "best_val_loss": 0.0007203412924386692,
+        "drift_01": 0.0,
+        "r2_transfer_01": 1.0,
+        "enc_params": 0
+      },
+      "free_16d": {
+        "best_val_loss": 0.03412829346693399,
+        "drift_01": 3.666644811630249,
+        "r2_transfer_01": -339.31385666456623,
+        "enc_params": 19856
+      },
+      "random_fixed_16d": {
+        "best_val_loss": 0.0010969404208784302,
+        "drift_01": 0.0,
+        "r2_transfer_01": 0.9999999999999892,
+        "enc_params": 0
+      }
+    },
+    "777": {
+      "prescribed_16d": {
+        "best_val_loss": 0.0007345982051144043,
+        "drift_01": 0.0,
+        "r2_transfer_01": 1.0,
+        "enc_params": 0
+      },
+      "free_16d": {
+        "best_val_loss": 0.03743446145141334,
+        "drift_01": 3.5892629623413086,
+        "r2_transfer_01": -1368.531154665448,
+        "enc_params": 19856
+      },
+      "random_fixed_16d": {
+        "best_val_loss": 0.001495219308376443,
+        "drift_01": 0.0,
+        "r2_transfer_01": 0.9999999999999902,
+        "enc_params": 0
+      }
+    }
+  }
+}

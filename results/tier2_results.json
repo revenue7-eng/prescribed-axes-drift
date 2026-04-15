@@ -1,0 +1,83 @@
+{
+  "config": {
+    "seeds": [
+      42,
+      123,
+      777
+    ],
+    "episodes": 200,
+    "epochs": 30
+  },
+  "T4": {
+    "42": {
+      "aligned_linear_with_sigreg": 0.013158028814614866,
+      "aligned_linear_no_sigreg": 0.016216956516891194,
+      "free_with_sigreg": 0.008136172184165109,
+      "free_no_sigreg": 0.007691766548771084,
+      "prescribed": 4.900875460487186e-05
+    },
+    "123": {
+      "aligned_linear_with_sigreg": 0.015570156864429774,
+      "aligned_linear_no_sigreg": 1.3927807184687833,
+      "free_with_sigreg": 0.008987602215717759,
+      "free_no_sigreg": 0.0038866260072641205,
+      "prescribed": 4.271208774553726e-05
+    },
+    "777": {
+      "aligned_linear_with_sigreg": 0.011214629080342618,
+      "aligned_linear_no_sigreg": 0.0028133232318060964,
+      "free_with_sigreg": 0.007721695898656259,
+      "free_no_sigreg": 0.010457891912052505,
+      "prescribed": 2.032314379201189e-05
+    }
+  },
+  "T5": {
+    "42": {
+      "prescribed": 4.900875460487186e-05,
+      "free_unfrozen": 0.008136172184165109,
+      "freeze@1_new_opt": 0.00940779798026932,
+      "freeze@3_new_opt": 0.007098045964774332,
+      "freeze@1_keep_state": 0.009025281667709351,
+      "freeze@3_keep_state": 0.006955895507544802
+    },
+    "123": {
+      "prescribed": 4.271208774553726e-05,
+      "free_unfrozen": 0.008987602215717759,
+      "freeze@1_new_opt": 0.00843860773010212,
+      "freeze@3_new_opt": 0.007384732682584671,
+      "freeze@1_keep_state": 0.008268252390910658,
+      "freeze@3_keep_state": 0.007341546537517978
+    },
+    "777": {
+      "prescribed": 2.032314379201189e-05,
+      "free_unfrozen": 0.007721695898656259,
+      "freeze@1_new_opt": 0.008510033603300129,
+      "freeze@3_new_opt": 0.006840203553764967,
+      "freeze@1_keep_state": 0.00880862788150185,
+      "freeze@3_keep_state": 0.006396941700133316
+    }
+  },
+  "T7": {
+    "42": {
+      "prescribed": 4.900875460487186e-05,
+      "rotated_prescribed": 4.778321506404481e-05,
+      "random_fixed_3d": 4.166778239060046e-05,
+      "random_fixed_5d": 977810.1835526315,
+      "free": 0.008136172184165109
+    },
+    "123": {
+      "prescribed": 4.271208774553726e-05,
+      "rotated_prescribed": 4.260294032671178e-05,
+      "random_fixed_3d": 5.022044386255163e-05,
+      "random_fixed_5d": 25296.897937225876,
+      "free": 0.008987602215717759
+    },
+    "777": {
+      "prescribed": 2.032314379201189e-05,
+      "rotated_prescribed": 2.7126957808688625e-05,
+      "random_fixed_3d": 1.7343204694553974e-05,
+      "random_fixed_5d": 125053.08667763158,
+      "free": 0.007721695898656259
+    }
+  }
+}
