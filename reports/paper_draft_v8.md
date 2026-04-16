@@ -398,6 +398,12 @@ Balestriero, R., & LeCun, Y. (2025). LeJEPA: Provable and Scalable Self-Supervis
 
 Bardes, A., Ponce, J., & LeCun, Y. (2022). VICReg: Variance-Invariance-Covariance Regularization for Self-Supervised Learning. ICLR 2022.
 
+Caron, M., Touvron, H., Misra, I., Jégou, H., Mairal, J., Bojanowski, P., & Joulin, A. (2021). Emerging Properties in Self-Supervised Vision Transformers. arXiv:2104.14294.
+
+Chen, X., & He, K. (2021). Exploring Simple Siamese Representation Learning. CVPR 2021. arXiv:2011.10566.
+
+Grill, J.-B., Strub, F., Altché, F., Tallec, C., Richemond, P.H., et al. (2020). Bootstrap Your Own Latent: A New Approach to Self-Supervised Learning. NeurIPS 2020. arXiv:2006.07733.
+
 Lazarev, A. (2026). The Space Matters More Than the Loss: JEPA Collapse as a Problem of Structure, Not Optimization.
 
 LeCun, Y. (2022). A Path Towards Autonomous Machine Intelligence. Technical Report, Meta AI.
@@ -407,3 +413,5 @@ Maes, L., Le Lidec, Q., Scieur, D., LeCun, Y., & Balestriero, R. (2026). LeWorld
 Ozkara, B., et al. (2025). PAN: A World Model for General, Interactable, and Long-Horizon World Simulation. arXiv:2511.09057.
 
 Psenka, M., Rabbat, M., Krishnapriyan, A., LeCun, Y., & Bar, A. (2026). Parallel Stochastic Gradient-Based Planning for World Models. arXiv:2602.00475.
+
+Zbontar, J., Jing, L., Misra, I., LeCun, Y., & Deny, S. (2021). Barlow Twins: Self-Supervised Learning via Redundancy Reduction. ICML 2021. arXiv:2103.03230.
