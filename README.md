@@ -67,7 +67,7 @@ Stability is a prerequisite: an encoder initialized on *perfect* coordinates but
 
 ## Relation to Paper 1
 
-This work extends [The Space Matters More Than the Loss](https://github.com/revenue7-eng/prescribed-axes) (Lazarev, 2026), which shows prescribed axes outperform free encoders across 4 modalities (5–38×). This paper identifies *why*: the free encoder's coordinate system drifts so rapidly that downstream modules cannot learn in it.
+This work extends [The Space Matters More Than the Loss](https://github.com/revenue7-eng/prescribed-axes) (Lazarev, 2026), which shows prescribed axes outperform free encoders across 4 modalities (5–38×). This paper investigates the dynamics of the free encoder's representation space that prescribed axes bypass: coordinate drift, its two phases, and why standard remedies (LR tuning, EMA, PCA alignment) do not resolve it.
 
 ---
 
@@ -166,12 +166,6 @@ results/
 
 reports/
 ├── paper_draft_v8.md                     ← Current draft (v8, with Tier 1-3 results)
-├── paper_draft_v7.md                     ← Previous draft (v7)
-├── paper_draft_v6.md                     ← Earlier draft (v6)
-├── paper_draft_v5.md                     ← Earlier draft (v5)
-├── paper_draft_v5_ru.md                  ← Russian translation (v5)
-├── paper_v6.docx                         ← Word document (v6)
-└── paper_v5.docx                         ← Word document (v5)
 
 figures/
 ├── figure1_main.png                      ← Main 2×2 figure (300 dpi)
@@ -223,3 +217,7 @@ figures/
   url={https://github.com/revenue7-eng/prescribed-axes-drift}
 }
 ```
+
+## License
+
+MIT — see [LICENSE](LICENSE)

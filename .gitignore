@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.pytest_cache/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# Jupyter
+*.ipynb_checkpoints
+
+# Local data / experiments
+*.log
+checkpoints/
+runs/
+wandb/
+mlruns/
+
+# Temporary archives (should not be committed)
+*.tar.gz
+*.rar
+*.zip
+!exp*/data/*.zip
+
+# Working drafts (internal only)
+drafts/
+notes/
+TODO*
+*.draft.md
