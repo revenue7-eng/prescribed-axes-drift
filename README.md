@@ -1,3 +1,13 @@
+## Status: superseded
+
+The quantitative claims below did not survive later checking. The gaps reported here (222x, 169x, 66x, 50x) are explained by two measurement defects. The free encoder's first layer discarded the scale of its raw input (Ф76). Each encoder was scored on its own latent, so ratios across different latent geometries are not comparable (Ф77). On a common target with equally scaled input, a fixed and a learned encoder are not distinguishable (Ф78, Ф79).
+
+What stands: the coordinates of a learned encoder do move strongly in the first epoch and less later, measured by decoder transfer (Ф10, Ф24, Ф25, Ф27, Ф35). The conclusion that this movement is what makes the free encoder worse rested on the cross-encoder ratios and is withdrawn.
+
+The text and code are left unchanged as a record of what was claimed. The current status of every result is kept in [coordinate-stability](https://github.com/revenue7-eng/coordinate-stability), EVIDENCE.md (Ф80, Ф82, Ф87, Ф88). This repository is archived.
+
+---
+
 # Semantic Drift, Not Rank Collapse
 
 **Why Stable Coordinates Matter for Learning in Joint-Embedding Spaces**
